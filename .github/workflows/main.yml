@@ -1,0 +1,35 @@
+A verification link has been sent to rehairapratama95@gmail.com. Additional restrictions will apply to your account until you confirm your email address.
+
+
+Get started by claiming your free static domain and say goodbye to random URLs forever!
+
+Claim your free static domain!
+
+Download ngrok
+ngrok is easy to install. Download a single binary with zero run-time dependencies.
+
+1. Unzip to install
+On Linux or Mac OS X you can unzip ngrok from a terminal with the following command. On Windows, just double click ngrok.zip to extract it.
+
+unzip /path/to/ngrok.zip
+2. Connect your account
+Running this command will add your authtoken to the default ngrok.yml configuration file. This will grant you access to more features and longer session times. Running tunnels will be listed on the endpoints page of the dashboard.
+
+ngrok config add-authtoken 2VGEYPUvryzgzol2n2x2bWSnb89_hgUaQ7qHk5i9HnRD3gGY
+3. Fire it up
+Read the documentation on how to use ngrok. Try it out by running it from the command line:
+
+ngrok help
+To start a HTTP tunnel forwarding to your local port 80, run this next:
+
+ngrok http 80
+
+Command Line
+Authenticate your ngrok agent. You only have to do this once. The Authtoken is saved in the default configuration file.
+
+ngrok config add-authtoken 2VGEYPUvryzgzol2n2x2bWSnb89_hgUaQ7qHk5i9HnRD3gGY
+Configuration File
+Alternatively, you can directly add the Authtoken to your ngrok.yml configuration file. Use ngrok config edit to open the file.
+
+# in ngrok.yml
+authtoken: 2VGEYPUvryzgzol2n2x2bWSnb89_hgUaQ7qHk5i9HnRD3gGY
